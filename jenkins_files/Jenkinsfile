@@ -1,6 +1,6 @@
 pipeline{
     stages{
-        stage{
+        stage('Build'){
             steps{
                     echo "In Stage_01::Step_01"
                 
