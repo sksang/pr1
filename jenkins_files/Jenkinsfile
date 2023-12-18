@@ -5,7 +5,8 @@ pipeline{
         stage('Build'){
             steps{
                     echo "In Stage_01::Step_01"
-                    echo "Using the parameter: " + ${param_01}
+                    echo "Using the parameter: "
+                    echo "${param_01}"
                 
             }
         }
