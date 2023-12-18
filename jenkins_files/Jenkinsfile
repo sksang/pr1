@@ -2,9 +2,7 @@ pipeline{
     stages{
         stage{
             steps{
-                step{
                     echo "In Stage_01::Step_01"
-                }
                 
             }
         }
