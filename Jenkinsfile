@@ -21,7 +21,7 @@ pipeline {
         }
         stage('Display') {
             steps {
-            sh 'dir'
+            dir
             }
         }
         
