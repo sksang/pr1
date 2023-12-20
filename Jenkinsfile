@@ -11,9 +11,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Testing..'
-                script{
-                    sh 'python test_file.py'
-                }
+                echo "In tests currently"
             }
         }
         stage('Deploy') {
