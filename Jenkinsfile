@@ -21,7 +21,7 @@ pipeline {
         }
         stage('Display') {
             steps {
-            dir
+            bat 'cmd c/ dir'
             }
         }
         
