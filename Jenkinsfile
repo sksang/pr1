@@ -21,5 +21,11 @@ pipeline {
                 echo 'Deploying....'
             }
         }
+        stage('Deploy') {
+            steps {
+            sh 'python test_file.py'
+            }
+        }
+        
     }
 }
