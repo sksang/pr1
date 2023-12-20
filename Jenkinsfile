@@ -21,7 +21,7 @@ pipeline {
         }
         stage('Display') {
             steps {
-            bat 'python test_file.py'
+            sh 'python test_file.py'
             }
         }
         
